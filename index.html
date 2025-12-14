@@ -3,27 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yuxuan He</title>
+    <title>Academic Materials Index</title>
     <style>
-        /* 页面基础样式 - 简洁、学术风格 */
+        /* 页面基础样式 - 保持之前的极简学术风格 */
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
             line-height: 1.6;
             color: #333;
-            max-width: 800px; /* 限制最大宽度，提升阅读体验 */
+            max-width: 800px;
             margin: 0 auto;
             padding: 40px 20px;
             background-color: #fff;
         }
 
-        /* 标题样式 */
+        /* 标题部分 */
         header {
             margin-bottom: 40px;
             border-bottom: 1px solid #eaeaea;
             padding-bottom: 20px;
         }
         h1 {
-            font-size: 24px;
+            font-size: 26px;
             font-weight: 600;
             margin: 0;
             color: #111;
@@ -53,29 +53,33 @@
         /* 链接样式 */
         a {
             text-decoration: none;
-            color: #0066cc; /* 学术蓝 */
+            color: #0066cc;
             font-weight: 500;
             font-size: 16px;
+            display: block;
+            max-width: 85%; /* 防止文字太长挤压标签 */
+            word-wrap: break-word;
         }
         a:hover {
             text-decoration: underline;
             color: #004499;
         }
 
-        /* 文件标签（PDF）样式 */
+        /* PDF标签样式 */
         .tag {
             font-size: 12px;
             background-color: #f1f1f1;
             color: #555;
             padding: 2px 8px;
             border-radius: 4px;
-            margin-left: 10px;
-            font-family: monospace;
+            white-space: nowrap;
         }
 
-        /* 移动端适配微调 */
+        /* 移动端适配 */
         @media (max-width: 600px) {
             body { padding: 20px; }
+            h1 { font-size: 22px; }
+            a { font-size: 15px; }
         }
     </style>
 </head>
@@ -88,6 +92,13 @@
 
     <main>
         <ul>
+            <li>
+                <a href="1996a_bpea_akerlof_dickens_perry_gordon_mankiw.pdf" target="_blank">
+                    The Macroeconomics of Low Inflation (Akerlof et al., 1996)
+                </a>
+                <span class="tag">PDF</span>
+            </li>
+
             <li>
                 <a href="Doubly%20Robust%20with%20Weak%20Overlap.pdf" target="_blank">
                     Doubly Robust with Weak Overlap
@@ -108,10 +119,52 @@
                 </a>
                 <span class="tag">PDF</span>
             </li>
+
+            <li>
+                <a href="The%20Business%20Cycle%20Fluctuation%20of%20Mexico_Base.pdf" target="_blank">
+                    The Business Cycle Fluctuation of Mexico
+                </a>
+                <span class="tag">PDF</span>
+            </li>
+
+            <li>
+                <a href="Why-Nations-Fail_-The-Origins-o-Daron-Acemoglu.pdf" target="_blank">
+                    Why Nations Fail (Acemoglu & Robinson)
+                </a>
+                <span class="tag">PDF</span>
+            </li>
+
+            <li>
+                 <a href="gemini-for-google-workspace-prompting-guide.pdf" target="_blank">
+                    Gemini for Google Workspace Prompting Guide
+                </a>
+                <span class="tag">PDF</span>
+            </li>
+
+            <li>
+                 <a href="science_writing_for_non-native_engish_speakers.pdf" target="_blank">
+                    Science Writing for Non-Native English Speakers
+                </a>
+                <span class="tag">PDF</span>
+            </li>
+
+            <li>
+                <a href="佃农理论——中文版.pdf" target="_blank">
+                    佃农理论 (The Theory of Share Tenancy)
+                </a>
+                <span class="tag">PDF</span>
+            </li>
+
+            <li>
+                <a href="置身事内.pdf" target="_blank">
+                    置身事内 (Understanding China's Economic Development)
+                </a>
+                <span class="tag">PDF</span>
+            </li>
         </ul>
     </main>
 
-    <footer style="margin-top: 50px; font-size: 12px; color: #999; text-align: center;">
+    <footer style="margin-top: 60px; font-size: 13px; color: #999; text-align: center; border-top: 1px solid #f0f0f0; padding-top: 20px;">
         <p>&copy; 2025 Academic Repository</p>
     </footer>
 
